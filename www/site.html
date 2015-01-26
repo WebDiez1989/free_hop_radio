@@ -1,0 +1,24 @@
+<html>
+<body>
+
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script language="javascript" type="text/javascript">
+    $.ajax({
+        type: 'POST',
+        url: 'http://free-hop.ru/',
+        data: '....',
+        statusCode: {
+            302: function() {
+                alert("302");
+            },
+            200: function() {
+                document.location.href='http://free-hop.ru/'
+            },
+        },
+    });
+</script>
+
+</body>
+</html>
