@@ -9,16 +9,19 @@
         type: 'POST',
         url: 'http://free-hop.ru/',
         data: '....',
+        timeout: 30000,
         statusCode: {
             302: function() {
-                alert("302");
+                alert("302"); // this is never called
             },
             200: function() {
-                document.location.href='http://free-hop.ru/'
+                document.location.href='http://free-hop.ru/phonegap-news'
             },
         },
     });
 </script>
+
+
 
 </body>
 </html>
