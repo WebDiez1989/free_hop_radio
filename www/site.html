@@ -6,32 +6,16 @@
 <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
 
 <style type="text/css">
-.align_center
-{
-position: relative;
-width: 100%;
-}
-.align_center:after
-{
-content: '';
-display: block;
-clear: both;
-}
-.align_center_to_left
-{
-position: relative;
-right: 50%;
-float: right;
-}
-.align_center_to_right
-{
-position: relative;
-z-index: 1;
-right: -50%;
-}
+
+.Absolute-Center {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+} 
 </style>
-    <div class="align_center_to_left">
-        <div class="align_center_to_right" style="margin: 1em 0; border: 1px dashed green; color: green;">
 
 <div id="loaderImage"></div>
 
@@ -99,8 +83,6 @@ right: -50%;
     //The following code starts the animation
     new imageLoader(cImageSrc, 'startAnimation()');
 </script>
-</div></div>
-
 <script language="javascript" type="text/javascript">
     $.ajax({
         type: 'POST',
