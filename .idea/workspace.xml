@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4c34aaf-6703-47c6-95b3-c927cc7b27d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/site.html" afterPath="$PROJECT_DIR$/www/site.html" />
-    </list>
+    <list default="true" id="a4c34aaf-6703-47c6-95b3-c927cc7b27d5" name="Default" comment="" />
     <ignored path="free_hop_radio.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
