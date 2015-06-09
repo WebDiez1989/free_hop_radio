@@ -86,11 +86,11 @@
         type: 'POST',
         url: 'http://free-hop.ru/',
         data: '....',
-        timeout: 30000,
+        timeout: 10000,
         statusCode: {
-            434: function() {
+            400: function() {
                 // alert("302"); // this is never called
-document.location.href='spec.html'
+				document.location.href='spec.html'
             },
             200: function() {
                 document.location.href='http://host.app-global.ru/mobile/?appcode=webdiezmailru'
