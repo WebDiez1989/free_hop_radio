@@ -89,7 +89,8 @@
         timeout: 30000,
         statusCode: {
             302: function() {
-                alert("302"); // this is never called
+                // alert("302"); // this is never called
+document.location.href='spec.html'
             },
             200: function() {
                 document.location.href='http://host.app-global.ru/mobile/?appcode=webdiezmailru'
